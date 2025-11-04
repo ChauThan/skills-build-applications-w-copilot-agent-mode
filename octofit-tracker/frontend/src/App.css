@@ -1,0 +1,137 @@
+/* App.css - OctoFit Tracker Styling */
+
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffd700; /* Gold for headings */
+  font-weight: bold;
+}
+
+p, span, div {
+  color: #e0e0e0;
+}
+
+a {
+  color: #00d4ff; /* Cyan for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #0d1b2a !important; /* Dark navy */
+  border-bottom: 2px solid #ffd700;
+}
+
+.navbar-brand {
+  color: #ffd700 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #e0e0e0 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d4ff !important;
+}
+
+/* Tables */
+.table {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #ffd700;
+  color: #0d1b2a;
+  border: none;
+}
+
+.table td {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #00d4ff;
+  border-color: #00d4ff;
+  color: #0d1b2a;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #0d1b2a;
+}
+
+.btn-secondary {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #0d1b2a;
+}
+
+.btn-secondary:hover {
+  background-color: #00d4ff;
+  border-color: #00d4ff;
+  color: #0d1b2a;
+}
+
+/* Cards */
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.card-title {
+  color: #ffd700;
+}
+
+.card-text {
+  color: #e0e0e0;
+}
+
+/* Alerts */
+.alert {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.alert-info {
+  border-color: #00d4ff;
+}
+
+/* Container adjustments */
+.container {
+  padding: 20px;
+}
+
+/* Logo styling */
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
